@@ -3,22 +3,22 @@ import axios from 'axios'
 import { API_URL } from '../../constants'
 
 function LandingPage() {
-    const [data, setData] = useState({})
+    const [data, setData] = useState([])
+    const [rover, setRover] = useState('perseverance')
 
     useEffect(() => {
-        console.log(`${process.env.REACT_APP_API_KEY}`)
         const fetchData = () => {
             axios
-                .get(`https://api.nasa.gov/mars-photos/api/v1/rovers/perseverance/latest_photos?api_key=${process.env.REACT_APP_API_KEY}`)
+                .get(`${process.env.REACT_APP_API_URI}/${rover}/latest_photos?api_key=${process.env.REACT_APP_API_KEY}`)
                 .then(response => {
-                    console.log(response)
+                    setData(response.data.latest_photos)
                 })
                 .catch(error => {
                     console.log(error)
                 })
         }
         fetchData()
-    }, [])
+    }, [rover])
 
     return (
         <>
