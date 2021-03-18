@@ -22,7 +22,7 @@ function LandingPage() {
                 .then(response => {
                     let imageUrls = []
                     response.data.latest_photos.map(photo => {
-                        imageUrls.push(photo['img_src'])
+                        return imageUrls.push(photo['img_src'])
                     })
                     setData(imageUrls)
                     setBackgroundImgUrl(imageUrls[0])
@@ -40,6 +40,7 @@ function LandingPage() {
             setBackgroundImgUrl((prevBackgroundImg) => data[randomInt])
         }, 7000)
         return () => clearInterval(interval)
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [backgroundImgUrl])
 
     const selectRover = (newRover) => {
