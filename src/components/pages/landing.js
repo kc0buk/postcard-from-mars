@@ -6,7 +6,8 @@ import {
     TitleContainer, 
     TitleDiv, 
     FooterContentDiv, 
-    Title } from '../common/StyledComponents'
+    Title,
+    BackgroundDiv } from '../common/StyledComponents'
 
 
 
@@ -48,6 +49,7 @@ function LandingPage() {
     }
     
     return (
+        <BackgroundDiv imgObj={backgroundImgUrl}>
         <LandingContainer imgObj={backgroundImgUrl}>
         <TitleContainer>
         <TitleDiv>
@@ -58,6 +60,7 @@ function LandingPage() {
         </TitleDiv>
         </TitleContainer>
         </LandingContainer>
+        </BackgroundDiv>
     )
 }
 

@@ -105,11 +105,6 @@ select {
   flex-grow: 1;
 }
 
-select {
-  width: 20em;
-  height: 3em;
-}
-
 /* div {
   border: 1px solid red;
 } */
