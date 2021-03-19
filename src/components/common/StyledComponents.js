@@ -13,13 +13,16 @@ export const BackgroundDiv = styled.div`
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0%;
+    padding: 0%;
 `
 
 // Holds the primary image and controls transitions between images
 export const LandingContainer = styled.div`
-    background-color: black;
     height: 100%;
     width: 100%;
+    margin: 0%;
+    padding: 0%;
     background-image: url(${props => props.imgObj ? props.imgObj : backgroundUrl});
     background-position: center;
     background-repeat: no-repeat;
