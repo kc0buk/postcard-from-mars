@@ -1,6 +1,6 @@
 # Getting Started with Postcards from Mars
 
-This project is a simple React application to retrieve and display recent photos from the NASA Mars Rover Photos API. It was built to fulfill the requirements of a take home assignment for a potential employer. I'm also completely fascinated by all of NASA's recent Mars missions and sat holding my breath the entire time waiting to hear if Perseverance had landed safely.
+This project is a simple React application to retrieve and display recent images from the NASA Mars Rover Photos API. It was built to fulfill the requirements of a take home assignment for a potential employer. I'm also completely fascinated by all of NASA's recent Mars missions and sat holding my breath the entire time waiting to hear if Perseverance had landed safely.
 
 A deployed version of the project is available at https://postcard-from-mars.vercel.app.
 
@@ -44,14 +44,14 @@ It was then a friend told me they liked the slight flicker of the image. It remi
 
 ## Next Steps
 
-There is a ton of additional search capability and data available from the NASA API, including: search by date, search for images from a specific camera, and mission manifest data, which is a list of the total photos available for each Mars day (a sol) by rover, along with the cameras that took the photos.
+There is a ton of additional search capability and data available from the NASA API, including: search by date, search for images from a specific camera, and mission manifest data, which is a list of the total images available for each Mars day (a sol) by rover, along with the cameras that took the images.
 
 The following are some of the ideas I would add to continue adding features to this basic application.
 
 * Add advanced search / filtering capabilities (e.g. search for images by specific earth date and/or camera)
 * Search for images from multiple rovers at the same time
-* Display the name of the rover and which camera took the currently displayed photo
-* Display the sol and earth date when the photo was taken
+* Display the name of the rover and which camera took the currently displayed image
+* Display the sol and earth date when the image was taken
 * Show all available images for a search in a grid and allow users to select which images are displayed
 * Refactor the random image function to eliminate the possibility of duplicate image choices until all images have been shown
 * Reframe the entire application to look as though the images are being displayed in an old style black and white TV (suggestion from a friend)
