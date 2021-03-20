@@ -54,4 +54,5 @@ The following are some of the ideas I would add to continue adding features to t
 * Display the sol and earth date when the image was taken
 * Show all available images for a search in a grid and allow users to select which images are displayed
 * Refactor the random image function to eliminate the possibility of duplicate image choices until all images have been shown
+* Handle the case where there is only one recent image returned from the API and send another request to fetch additional images
 * Reframe the entire application to look as though the images are being displayed in an old style black and white TV (suggestion from a friend)
