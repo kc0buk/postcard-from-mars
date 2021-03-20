@@ -2,7 +2,7 @@
 
 This project is a simple React application to retrieve and display recent images from the NASA Mars Rover Photos API. It was built to fulfill the requirements of a take home assignment for a potential employer. I'm also completely fascinated by all of NASA's recent Mars missions and sat holding my breath the entire time waiting to hear if Perseverance had landed safely.
 
-A deployed version of the project is available at https://postcard-from-mars.vercel.app.
+A deployed version of the project is available at https://postcards-from-mars.vercel.app.
 
 More information about all of NASA's APIs is available at https://api.nasa.gov.
 
